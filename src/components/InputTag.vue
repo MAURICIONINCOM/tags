@@ -36,6 +36,7 @@ export default {
 <template>
   <div class="inputTag">
     <div class="tags">
+      <h1>TAGS</h1>
       <div class="tag" v-for="(tag, index) in tags" :key="index">
         {{ tag }} <button @click="deleteTag(tag)">X</button>
       </div>
